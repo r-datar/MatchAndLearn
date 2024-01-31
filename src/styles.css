@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00ff6c);
+    width: 75%;
+}
+
+.toplevel {
+	align-self: center;
+   	margin-left: 200px;
+   	width:500px;
+   	overflow: hidden;
+}
+.table-left{
+    border: 1;
+    float:left;
+    margin-left: 300px;
+    margin-top: 150px;
+
+}
+
+.table-right{
+    border: 1;
+    float:right;
+	overflow: hidden;
+    margin-top: 150px;
+ 
+}
+
+tr {
+	padding: 2px;
+	width: 100%;
+ }
+ 
+td {
+	padding: 5px;
+    width: 48%;
+ 
+}
+
+.tilerow > .rhs {
+  	padding: 5px;
+    width: 48%;
+    float:left;
+}
+
+.tiles > button:hover,
+.tiles > button:focus {
+    background-color: rgba(255,255,255,0.9);
+}
+
+button.big{
+    height: 80px;
+    width: 125px;
+    color: black;
+	border-radius: 5px;
+}
+
+button.wrong{
+    height: 80px;
+    width: 125px;
+	border-color:#f44336;
+	color:#f44336;
+	border-radius: 5px;
+}
+
+button.clicked {
+    height: 80px;
+    width: 125px;
+	border-color:blue;
+	color:blue;
+	border-radius: 5px;
+}
+
+button.dim {
+	color:gray;
+}
+
+.message {
+	align-self: center;
+   	margin-left: 200px;
+   	width:700px;
+   	overflow: hidden;
+	text-align: center; 
+}
